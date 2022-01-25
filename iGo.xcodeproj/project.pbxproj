@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85FD6922772FEDD00A156CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD6912772FEDD00A156CB /* AppDelegate.swift */; };
+		D85FD6942772FEDD00A156CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD6932772FEDD00A156CB /* SceneDelegate.swift */; };
+		D85FD6962772FEDD00A156CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85FD6952772FEDD00A156CB /* ViewController.swift */; };
+		D88187B1279FFB38000AB2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85FD69A2772FEE000A156CB /* Assets.xcassets */; };
+		D88187B2279FFB5B000AB2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85FD69C2772FEE000A156CB /* LaunchScreen.storyboard */; };
+		D8D0D41527731E0400867F52 /* PitchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D41327731E0400867F52 /* PitchCollectionViewCell.swift */; };
+		D8D0D4182773288100867F52 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D0D4172773288100867F52 /* Pitch.swift */; };
+		D8D76254279A994D00B1CE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85FD6972772FEDD00A156CB /* Main.storyboard */; };
+		D8D76257279A997300B1CE62 /* PitchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D0D41427731E0400867F52 /* PitchCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32DF45ACB3ECD715FA0A97AF /* Pods-iGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGo.release.xcconfig"; path = "Target Support Files/Pods-iGo/Pods-iGo.release.xcconfig"; sourceTree = "<group>"; };
+		D85FD68E2772FEDD00A156CB /* iGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85FD6912772FEDD00A156CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85FD6932772FEDD00A156CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D85FD6952772FEDD00A156CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D85FD6982772FEDD00A156CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85FD69A2772FEE000A156CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85FD69D2772FEE000A156CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85FD69F2772FEE000A156CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D0D41327731E0400867F52 /* PitchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8D0D41427731E0400867F52 /* PitchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PitchCollectionViewCell.xib; sourceTree = "<group>"; };
+		D8D0D4172773288100867F52 /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		D8D76256279A994F00B1CE62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E618184F8E15238DDB789EC4 /* Pods-iGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGo.debug.xcconfig"; path = "Target Support Files/Pods-iGo/Pods-iGo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85FD68B2772FEDD00A156CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5305EEC24581E399F4797E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E618184F8E15238DDB789EC4 /* Pods-iGo.debug.xcconfig */,
+				32DF45ACB3ECD715FA0A97AF /* Pods-iGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D85FD6852772FEDC00A156CB = {
+			isa = PBXGroup;
+			children = (
+				D85FD6902772FEDD00A156CB /* iGo */,
+				D85FD68F2772FEDD00A156CB /* Products */,
+				5305EEC24581E399F4797E08 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D85FD68F2772FEDD00A156CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85FD68E2772FEDD00A156CB /* iGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85FD6902772FEDD00A156CB /* iGo */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0D40E27731B1900867F52 /* Cell */,
+				D85FD6912772FEDD00A156CB /* AppDelegate.swift */,
+				D8D0D4172773288100867F52 /* Pitch.swift */,
+				D85FD6932772FEDD00A156CB /* SceneDelegate.swift */,
+				D85FD6952772FEDD00A156CB /* ViewController.swift */,
+				D85FD6972772FEDD00A156CB /* Main.storyboard */,
+				D85FD69A2772FEE000A156CB /* Assets.xcassets */,
+				D85FD69C2772FEE000A156CB /* LaunchScreen.storyboard */,
+				D85FD69F2772FEE000A156CB /* Info.plist */,
+			);
+			path = iGo;
+			sourceTree = "<group>";
+		};
+		D8D0D40E27731B1900867F52 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0D41327731E0400867F52 /* PitchCollectionViewCell.swift */,
+				D8D0D41427731E0400867F52 /* PitchCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85FD68D2772FEDD00A156CB /* iGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85FD6A22772FEE000A156CB /* Build configuration list for PBXNativeTarget "iGo" */;
+			buildPhases = (
+				45AE1E1D9C225350DA3A4705 /* [CP] Check Pods Manifest.lock */,
+				D85FD68A2772FEDD00A156CB /* Sources */,
+				D85FD68B2772FEDD00A156CB /* Frameworks */,
+				D85FD68C2772FEDD00A156CB /* Resources */,
+				56C989EB7857EBB7F8F28E25 /* [CP] Copy Pods Resources */,
+				C235472A640453399B7064CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGo;
+			productName = iGo;
+			productReference = D85FD68E2772FEDD00A156CB /* iGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85FD6862772FEDC00A156CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D85FD68D2772FEDD00A156CB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D85FD6892772FEDC00A156CB /* Build configuration list for PBXProject "iGo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85FD6852772FEDC00A156CB;
+			productRefGroup = D85FD68F2772FEDD00A156CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85FD68D2772FEDD00A156CB /* iGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85FD68C2772FEDD00A156CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88187B2279FFB5B000AB2C9 /* LaunchScreen.storyboard in Resources */,
+				D88187B1279FFB38000AB2C9 /* Assets.xcassets in Resources */,
+				D8D76254279A994D00B1CE62 /* Main.storyboard in Resources */,
+				D8D76257279A997300B1CE62 /* PitchCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45AE1E1D9C225350DA3A4705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C989EB7857EBB7F8F28E25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C235472A640453399B7064CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGo/Pods-iGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85FD68A2772FEDD00A156CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D0D4182773288100867F52 /* Pitch.swift in Sources */,
+				D85FD6962772FEDD00A156CB /* ViewController.swift in Sources */,
+				D85FD6922772FEDD00A156CB /* AppDelegate.swift in Sources */,
+				D85FD6942772FEDD00A156CB /* SceneDelegate.swift in Sources */,
+				D8D0D41527731E0400867F52 /* PitchCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D85FD6972772FEDD00A156CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85FD6982772FEDD00A156CB /* Base */,
+				D8D76256279A994F00B1CE62 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85FD69C2772FEE000A156CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85FD69D2772FEE000A156CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85FD6A02772FEE000A156CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85FD6A12772FEE000A156CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85FD6A32772FEE000A156CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E618184F8E15238DDB789EC4 /* Pods-iGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTA4V7W4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshrd.iGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85FD6A42772FEE000A156CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DF45ACB3ECD715FA0A97AF /* Pods-iGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVTA4V7W4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshrd.iGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85FD6892772FEDC00A156CB /* Build configuration list for PBXProject "iGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85FD6A02772FEE000A156CB /* Debug */,
+				D85FD6A12772FEE000A156CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85FD6A22772FEE000A156CB /* Build configuration list for PBXNativeTarget "iGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85FD6A32772FEE000A156CB /* Debug */,
+				D85FD6A42772FEE000A156CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85FD6862772FEDC00A156CB /* Project object */;
+}
